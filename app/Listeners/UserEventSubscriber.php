@@ -30,13 +30,6 @@ class UserEventSubscriber
     }
 
     /**
-     * Handle user logout events.
-     */
-    public function onUserLogout($event) {
-
-    }
-
-    /**
      * Register the listeners for the subscriber.
      *
      * @param  Illuminate\Events\Dispatcher  $events
